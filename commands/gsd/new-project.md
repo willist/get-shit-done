@@ -20,10 +20,10 @@ Creates `.planning/` with PROJECT.md and config.json.
 
 <execution_context>
 
-@~/.claude/get-shit-done/references/principles.md
-@~/.claude/get-shit-done/references/questioning.md
-@~/.claude/get-shit-done/templates/project.md
-@~/.claude/get-shit-done/templates/config.json
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/references/principles.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/references/questioning.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/project.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/config.json
 
 </execution_context>
 

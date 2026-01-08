@@ -21,8 +21,8 @@ Output: Validation of features, any issues logged to phase-scoped ISSUES.md
 </objective>
 
 <execution_context>
-@~/.claude/get-shit-done/workflows/verify-work.md
-@~/.claude/get-shit-done/templates/uat-issues.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/workflows/verify-work.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/uat-issues.md
 </execution_context>
 
 <context>

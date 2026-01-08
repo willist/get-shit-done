@@ -13,8 +13,8 @@ Output: {phase}-CONTEXT.md capturing the user's vision for the phase
 </objective>
 
 <execution_context>
-@~/.claude/get-shit-done/workflows/discuss-phase.md
-@~/.claude/get-shit-done/templates/context.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/workflows/discuss-phase.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/context.md
 </execution_context>
 
 <context>
