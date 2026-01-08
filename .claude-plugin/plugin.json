@@ -6,7 +6,7 @@
     "name": "TÂCHES"
   },
   "license": "MIT",
-  "repository": "https://github.com/glittercowboy/get-shit-done",
+  "repository": "https://github.com/willist/get-shit-done",
   "commands": [
     "./commands/gsd/new-project.md",
     "./commands/gsd/create-roadmap.md",
