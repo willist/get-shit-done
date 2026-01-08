@@ -15,7 +15,12 @@ allowed-tools:
 ---
 
 <execution_context>
-@~/.claude/get-shit-done/references/ui-brand.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/workflows/plan-phase.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/phase-prompt.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/references/plan-format.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/references/scope-estimation.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/references/checkpoints.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/references/tdd.md
 </execution_context>
 
 <objective>

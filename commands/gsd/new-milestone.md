@@ -26,10 +26,8 @@ This is the brownfield equivalent of new-project. The project exists, PROJECT.md
 </objective>
 
 <execution_context>
-@~/.claude/get-shit-done/references/questioning.md
-@~/.claude/get-shit-done/references/ui-brand.md
-@~/.claude/get-shit-done/templates/project.md
-@~/.claude/get-shit-done/templates/requirements.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/workflows/create-milestone.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/roadmap.md
 </execution_context>
 
 <context>

@@ -23,6 +23,12 @@ Research how to implement a phase. Spawns gsd-phase-researcher agent with phase 
 **Why subagent:** Research burns context fast (WebSearch, Context7 queries, source verification). Fresh 200k context for investigation. Main context stays lean for user interaction.
 </objective>
 
+<execution_context>
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/workflows/research-phase.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/research.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/references/research-pitfalls.md
+</execution_context>
+
 <context>
 Phase number: $ARGUMENTS (required)
 

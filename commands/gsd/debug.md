@@ -17,6 +17,10 @@ Debug issues using scientific method with subagent isolation.
 **Why subagent:** Investigation burns context fast (reading files, forming hypotheses, testing). Fresh 200k context per investigation. Main context stays lean for user interaction.
 </objective>
 
+<execution_context>
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/workflows/debug.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/DEBUG.md
+</execution_context>
 <context>
 User's issue: $ARGUMENTS
 
@@ -27,6 +31,7 @@ ls .planning/debug/*.md 2>/dev/null | grep -v resolved | head -5
 </context>
 
 <process>
+Follow the workflow in @${CLAUDE_PLUGIN_ROOT}/get-shit-done/workflows/debug.md
 
 ## 0. Resolve Model Profile
 

@@ -21,8 +21,8 @@ Output: {phase}-UAT.md tracking all test results. If issues found: diagnosed gap
 </objective>
 
 <execution_context>
-@~/.claude/get-shit-done/workflows/verify-work.md
-@~/.claude/get-shit-done/templates/UAT.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/workflows/verify-work.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/uat-issues.md
 </execution_context>
 
 <context>

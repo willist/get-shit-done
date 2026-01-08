@@ -29,10 +29,10 @@ This is the most leveraged moment in any project. Deep questioning here means be
 
 <execution_context>
 
-@~/.claude/get-shit-done/references/questioning.md
-@~/.claude/get-shit-done/references/ui-brand.md
-@~/.claude/get-shit-done/templates/project.md
-@~/.claude/get-shit-done/templates/requirements.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/references/principles.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/references/questioning.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/project.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/config.json
 
 </execution_context>
 

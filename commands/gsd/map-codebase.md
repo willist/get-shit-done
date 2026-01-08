@@ -20,7 +20,14 @@ Output: .planning/codebase/ folder with 7 structured documents about the codebas
 </objective>
 
 <execution_context>
-@~/.claude/get-shit-done/workflows/map-codebase.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/workflows/map-codebase.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/codebase/stack.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/codebase/architecture.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/codebase/structure.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/codebase/conventions.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/codebase/testing.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/codebase/integrations.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/codebase/concerns.md
 </execution_context>
 
 <context>

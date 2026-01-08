@@ -23,8 +23,8 @@ Context budget: ~15% orchestrator, 100% fresh per subagent.
 </objective>
 
 <execution_context>
-@~/.claude/get-shit-done/references/ui-brand.md
-@~/.claude/get-shit-done/workflows/execute-phase.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/workflows/execute-phase.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/subagent-task-prompt.md
 </execution_context>
 
 <context>

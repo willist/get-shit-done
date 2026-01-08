@@ -68,6 +68,26 @@ GSD fixes that. It's the context engineering layer that makes Claude Code reliab
 
 People who want to describe what they want and have it built correctly — without pretending they're running a 50-person engineering org.
 
+### Marketplace Installation
+
+Install from the Claude Code marketplace:
+
+```bash
+/plugin marketplace add willist/get-shit-done
+/plugin install get-shit-done@get-shit-done
+```
+
+### Manual Installation
+
+Clone the repository and tell Claude Code where to find it:
+
+```bash
+git clone https://github.com/willist/get-shit-done.git
+claude --plugin-dir ./get-shit-done
+```
+
+Useful for development or testing modifications.
+
 ---
 
 ## Getting Started

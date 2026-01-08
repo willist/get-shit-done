@@ -133,7 +133,53 @@ mkdir -p "$PHASE_DIR"
 
 Build test list from extracted deliverables.
 
-Create file:
+<step name="guide">
+**Guide user through each test:**
+
+For each test item, use AskUserQuestion:
+- header: "[Feature name]"
+- question: "[Test description] - Did this work as expected?"
+- options:
+  - "Pass" — Works correctly
+  - "Fail" — Doesn't work as expected
+  - "Partial" — Works but with issues
+  - "Skip" — Can't test right now
+
+**If Pass:** Move to next test
+
+**If Fail or Partial:**
+Follow up with AskUserQuestion:
+- header: "Issue details"
+- question: "What went wrong?"
+- options:
+  - "Crashes/errors" — Application error or exception
+  - "Wrong behavior" — Does something unexpected
+  - "Missing feature" — Expected functionality not present
+  - "UI/visual issue" — Looks wrong but functions
+  - "Let me describe" — Free-form description needed
+</step>
+
+<step name="collect">
+**Collect and categorize issues:**
+
+For each failed/partial test, gather:
+- Feature affected
+- What went wrong (from user input)
+- Severity:
+  - **Blocker** — Can't use the feature at all
+  - **Major** — Feature works but significant problem
+  - **Minor** — Small issue, feature still usable
+  - **Cosmetic** — Visual only, no functional impact
+</step>
+
+<step name="log">
+**Log issues to phase-scoped file:**
+
+If any issues found:
+
+1. Create `.planning/phases/XX-name/{phase}-{plan}-ISSUES.md` if doesn't exist
+2. Use template from `@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/uat-issues.md`
+3. Add each issue:
 
 ```markdown
 ---
