@@ -18,8 +18,8 @@ Then verify each level against the actual codebase.
 </core_principle>
 
 <required_reading>
-@~/.claude/get-shit-done/references/verification-patterns.md
-@~/.claude/get-shit-done/templates/verification-report.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/references/verification-patterns.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/templates/verification-report.md
 </required_reading>
 
 <process>

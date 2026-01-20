@@ -6,7 +6,7 @@ Execute a phase prompt (PLAN.md) and create the outcome summary (SUMMARY.md).
 Read STATE.md before any operation to load project context.
 Read config.json for planning behavior settings.
 
-@~/.claude/get-shit-done/references/git-integration.md
+@${CLAUDE_PLUGIN_ROOT}/get-shit-done/references/git-integration.md
 </required_reading>
 
 <process>
